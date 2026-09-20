@@ -1,4 +1,4 @@
-import { runKimp } from "../tui/main.js";
+import { runKimp } from "../tui/app.js";
 import { displayHelp } from "./help.js";
 
 export {argumentManager}
