@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/Lord-Einstein/kimp_command#readme",
   "dependencies": {
-    "@inquirer/prompts": "^8.7.2"
+    "@inquirer/prompts": "^8.7.2",
+    "boxen": "^8.0.1",
+    "picocolors": "^1.1.1"
   }
 }
