@@ -19,17 +19,17 @@ function argumentManager() {
 
     case '--save':
     case '-s':
-      console.log("Option de sauvegarde directe demandée");
+      process.stderr.write("Option de sauvegarde directe demandée.\n");
       break;
 
     case '--reset':
     case '-r':
-      console.log("Option de réinitialisation demandée");
+      process.stderr.write("Option de réinitialisation demandée\n");
       break;
 
     default:
-      console.log(`La commande kimp ne prend pas cet argument : '${PASSED_ARG}'`);
-      console.log("Tapez 'kimp --help' pour obtenir de l'aide.");
+      process.stderr.write(`La commande kimp ne prend pas cet argument : '${PASSED_ARG}'\n`);
+      process.stderr.write("Tapez 'kimp --help' pour obtenir de l'aide.\n");
       break;
   }
 }

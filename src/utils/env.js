@@ -12,5 +12,5 @@ function detectShell() {
 function displayUserEnvInfos() {
     const USER_OS = os.platform();
     const USER_SHELL = detectShell();
-    console.log(`Ce user est sur ${USER_SHELL} (${USER_OS})`);
+    process.stderr.write(`Ce user est sur ${USER_SHELL} (${USER_OS})\n`);
 }
