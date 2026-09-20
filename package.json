@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Lord-Einstein/kimp_command/issues"
   },
-  "homepage": "https://github.com/Lord-Einstein/kimp_command#readme"
+  "homepage": "https://github.com/Lord-Einstein/kimp_command#readme",
+  "dependencies": {
+    "@inquirer/prompts": "^8.7.2"
+  }
 }
