@@ -1,4 +1,4 @@
-# Fiche Projet Finale — CLI Generator Prompt (`prompt-builder`)
+# Fiche Projet  — CLI Generator Prompt (`prompt-builder`)
 
 ## Objectif
 
